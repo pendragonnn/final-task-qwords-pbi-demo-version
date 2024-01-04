@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .title-footer {
+    @apply font-bold my-2 lg:text-2xl md:text-xl text-2xl text-orange-500;
+  }
+}
