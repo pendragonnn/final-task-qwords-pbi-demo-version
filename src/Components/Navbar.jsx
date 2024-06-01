@@ -100,7 +100,7 @@ export default function Navbar() {
   return (
     <nav className='py-2 w-full sticky z-50 bg-white top-0 shadow-sm'>
       <div className="mx-4 flex items-center lg:justify-around justify-between">
-        <img src="https://i.ibb.co/30H4CbX/logo-qw-light.webp" className='w-40 p-2 lg:w-28 ' alt="logo-qw-light" border="0" />
+        <img src="https://www.qwords.com/wp-content/themes/qwords/assets/images/icons/logo-qw-light.webp" className='w-40 p-2 lg:w-28 ' alt="logo-qw-light" border="0" />
         {isMenuActive ? (
           <button className='p-2 lg:hidden' onClick={onMenuClickHandle}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="black" className="w-8 h-8 md:w-12 md:h-12">
